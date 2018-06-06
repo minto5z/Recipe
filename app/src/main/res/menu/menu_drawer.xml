@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/action_explore"
+            android:icon="@drawable/explore"
+            android:title="@string/explore" />
+
+        <item
+            android:id="@+id/action_my_recipe"
+            android:icon="@drawable/recipe_icon"
+            android:title="@string/my_recipe" />
+
+        <item
+            android:id="@+id/action_setting"
+            android:icon="@drawable/settings"
+            android:title="@string/setting" />
+
+    </group>
+
+    <item android:title="@string/app_name">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/action_extra_1"
+                    android:icon="@drawable/share_icon"
+                    android:title="@string/extra_1" />
+
+                <item
+                    android:id="@+id/action_extra_2"
+                    android:icon="@drawable/network"
+                    android:title="@string/extra_2" />
+
+                <item
+                    android:id="@+id/action_extra_3"
+                    android:icon="@drawable/settings"
+                    android:title="@string/extra_3" />
+
+            </group>
+        </menu>
+
+    </item>
+</menu>
